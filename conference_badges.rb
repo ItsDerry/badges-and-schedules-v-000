@@ -1,5 +1,5 @@
-def badge_maker(speaker)
-  puts "Hello, my name is #{speaker}."
+def badge_maker(attendees)
+  puts "Hello, my name is #{attendees}."
 end
 
 def batch_badge_creator
