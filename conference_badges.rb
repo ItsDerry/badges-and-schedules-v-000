@@ -15,7 +15,7 @@ def assign_rooms(name, room_assignments)
     name.each do |attendee, room|
     assigned_rooms.push("Hello, #{attendee}! You'll be assigned to room #{room}!")
     end
-    badges
+    assigned_rooms
   end
 end
 
