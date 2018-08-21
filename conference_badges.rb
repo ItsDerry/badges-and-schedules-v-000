@@ -18,7 +18,7 @@ def assign_rooms(attendees)
     assigned_rooms
 end
 
-def printer(attendees)
+def printer(name, attendees)
   badges = Array.new
   name.each do |attendee|
   badges.push("Hello, my name is #{attendee}.")
