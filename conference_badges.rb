@@ -25,7 +25,6 @@ def printer(name, attendees)
   badges.push("Hello, my name is #{attendee}.")
   end
   puts badges
-
-  attendees.each.with_index(1) { |attendee, index| print attendee = "Hello, #{attendee}! You'll be assigned to room #{index}!"}
 binding.pry
+  attendees.each.with_index(1) { |attendee, index| print attendee = "Hello, #{attendee}! You'll be assigned to room #{index}!"}
 end
