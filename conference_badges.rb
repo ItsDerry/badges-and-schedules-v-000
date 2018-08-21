@@ -19,10 +19,14 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  badges = Array.new
   name.each do |attendee|
-  puts batch_badge_creator(attendee)
+  badges.push("Hello, my name is #{attendee}.")
+  puts badges
   end
+  assigned_rooms = Array.new
   attendees.each.with_index(1) do |attendee, index|
-  puts assign_rooms(attendee, index)
+  assigned_rooms.push("Hello, #{attendee}! You'll be assigned to room #{index}!")
+  puts assigned_rooms
   end
 end
