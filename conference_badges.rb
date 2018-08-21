@@ -1,6 +1,6 @@
 def badge_maker(speaker)
   puts "Hello, my name is #{speaker}."
-end 
+end
 
 def batch_badge_creator
 end
