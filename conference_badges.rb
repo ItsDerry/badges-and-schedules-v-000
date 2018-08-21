@@ -16,7 +16,6 @@ def assign_rooms(name)
     assigned_rooms.push("Hello, #{attendee}! You'll be assigned to room #{room}!")
     end
     assigned_rooms
-  end
 end
 
 def printer
