@@ -25,9 +25,8 @@ def printer(name, attendees)
   end
   puts badges
 
-  assigned_rooms = Array.new
-  attendees.each.with_index(1) do |attendee, index|
-  assigned_rooms.push("Hello, #{attendee}! You'll be assigned to room #{index}!")
+  attendees.each.with_index(1) { |attendee, index| print attendee/index = "Hello, #{attendee}! You'll be assigned to room #{index}!"}
+  
   end
   puts assigned_rooms
 end
